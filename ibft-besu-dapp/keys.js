@@ -15,12 +15,12 @@ module.exports = {
   },
   besu: {
     node1: {
-      url: "http://192.168.0.18:8545",
+      url: "http://192.168.0.78:8545",
       privateKey:
         "4f04bbe49c59c13092704867bb5e991b4e7cf2f5e7f86d44bd3abdd1f315a4a9"
     },
     node2: {
-      url: "http://192.168.0.18:8546",
+      url: "http://192.168.0.78:8546",
       privateKey:
         "562bbca306046321da14b180f87e2a7bdc1f810ce62df54b4006d940de21afb3"
     },

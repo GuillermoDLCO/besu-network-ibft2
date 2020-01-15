@@ -74,6 +74,7 @@ const getValue = contractAddress => {
     })
     .then(result => {
       console.log('Result CALL GET: ', result);
+      console.log('decode: ',web3.eth.abi.decodeParameters(['string', 'uint256'], result.output))
       return result.output;
     });
 };
